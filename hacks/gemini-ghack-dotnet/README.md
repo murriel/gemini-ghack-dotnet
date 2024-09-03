@@ -8,7 +8,7 @@ You choose to follow a test-driven development process, relying on requirements 
 
 ## Learning Objectives
 
-In this gHack you will learn how to add business functionality to an existing Java and Spring Boot serverless application using the Gemini CodeAssist feature. 
+In this gHack you will learn how to add business functionality to an existing .NET serverless application using the Gemini CodeAssist feature. 
 
 1. Set up the prerequisites
 1. Download and validate the Quotes app codebase
@@ -36,7 +36,7 @@ In this gHack you will learn how to add business functionality to an existing Ja
 ## Prerequisites
 
 - Your own GCP project with Owner IAM role.
-- Experience with Java and Git 
+- Experience with .NET and Git 
 - gCloud CLI
 - Visual Studio Code
 - MacOS or Windows 
@@ -48,21 +48,21 @@ In this gHack you will learn how to add business functionality to an existing Ja
 - Dan Dobrin
 - Yanni Peng
 - Daniella Noronha
+- Murriel McCabe
 
 ## Challenge 1: Clone the Quotes app
 
 ### Pre-requisites 
 
-- Java 21
+- .NET 8
 - Git
-- Experience with Java and Git 
-- Experience with Spring Boot and Maven
+- Experience with git, .NET/C#
 
 ### Description
 
-In this challenge, you will set up the provided repository in your own GCP project so that you can edit it within the Cloud Shell editor and use the Gemini Code Assist plugin and chat, all without leaving GCP. Before cloning your repository, ensure you have Java and OpenJDK installed, and enable the Gemini Code Assist, Cloud Build, Cloud Run, and Cloud Logging APIs within your project (if not enabled by running the included Terraform).
+In this challenge, you will set up the provided repository in your own GCP project so that you can edit it within the Cloud Shell editor and use the Gemini Code Assist plugin and chat, all without leaving GCP. Before cloning your repository, ensure you have installed the .NET 8 SDK, set up your APPLICATION_DEFAULT_CREDENTIALS, and enabled the Vertex AI, Gemini Code Assist, Cloud Build, Cloud Run, Artifact Registry, and Cloud Logging APIs within your project (if not enabled by running the included Terraform).
 
-The Quotes repository is [found on GitHub here](https://github.com/ddobrin/quotes-workshop). You can see some notes in the README file for running the application locally. 
+The Quotes repository is [found on GitHub here](https://github.com/jjdelorme/generative-quote/). You can see some notes in the README file for running the application locally. 
 
 ### Success Criteria
 
@@ -78,6 +78,8 @@ The Quotes repository is [found on GitHub here](https://github.com/ddobrin/quote
 - [Code with Gemini Code Assist](https://cloud.google.com/code/docs/shell/write-code-gemini#:~:text=In%20the%20activity%20bar%20of,an%20explanation%20of%20your%20code)
 
 ## Challenge 2: Get started with Gemini Code Assist
+
+## TODO: Update for .NET 
 
 ### Introduction 
 
@@ -152,6 +154,8 @@ Remember that Gemini Code Assist can always help out if you're unfamiliar with a
 
 
 ## Challenge 5: Enhancing the Quotes app with GenAI
+
+## TODO: Update for .NET 
 
 ### Introduction 
 
